@@ -1,0 +1,25 @@
+% Default 16:9. Define \BeamerAspectRatio as 43 before this file for 4:3.
+\ifdefined\BeamerAspectRatio
+\else
+    \def\BeamerAspectRatio{169}
+\fi
+\documentclass[aspectratio=\BeamerAspectRatio]{beamer}
+\usepackage{ProjectSpecificAdditionalPackages}
+\import{./}{TitlePageInfo.tex}
+\addbibresource{references.bib}
+
+\begin{document}
+\maketitlepage
+\maketableofcontents
+%\makesubsectionpopup
+\makesectionpopup
+
+\import{slides/}{01_Motivation.tex}
+\import{slides/}{02_Polarization.tex}
+\import{slides/}{03_Study.tex}
+\import{slides/}{04_AnalysisAndStatus.tex}
+
+\appendix
+\AtBeginSection[]{}
+\import{slides/}{05_Appendix.tex}
+\end{document}

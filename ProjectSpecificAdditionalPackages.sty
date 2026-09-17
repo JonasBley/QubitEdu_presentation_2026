@@ -1,0 +1,52 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ProjectSpecificAdditionalPackages}[2026/09/11 LeipzigChemie with modern layout]
+\RequirePackage{iftex}
+\ifPDFTeX
+  \PackageError{ProjectSpecificAdditionalPackages}{Use XeLaTeX or LuaLaTeX}{The LeipzigChemie theme uses fontspec.}
+\fi
+\RequirePackage{import}
+\RequirePackage{amsmath,amssymb,graphicx,booktabs,array,tabularx}
+\RequirePackage{tcolorbox}
+\RequirePackage[backend=bibtex,style=authoryear,maxcitenames=2,maxbibnames=9,natbib=true,doi=true,url=false,isbn=false]{biblatex}
+\usetheme{LeipzigChemie}
+\usepackage{LeipzigModern}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.25}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\source}[1]{\par\vspace{2mm}{\scriptsize\color{Muted}#1\par}}
+\newcommand{\keyidea}[1]{\par\vspace{2mm}{\normalsize\bfseries\color{LeipzigBlue}#1\par}}
+\newcommand{\ket}[1]{\lvert #1\rangle}
+\newcommand{\placeholder}[3]{%
+ \IfFileExists{#1}{\includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}}{%
+ \begingroup\setlength{\fboxsep}{7pt}\color{Muted}%
+ \fbox{\parbox[c][#2][c]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{\centering\small #3}}\endgroup}}
+\RequirePackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc}
+\definecolor{alignmentblue}{HTML}{2363A0}
+\definecolor{modellingorange}{HTML}{C87544}
+\definecolor{competencygreen}{HTML}{24735A}
+\newif\ifcompetencies
+\tikzset{original/.style={line width=1pt},
+relation/.style={line width=1.5pt,{Triangle[length=2mm]}-{Triangle[length=2mm]}},
+labelbox/.style={fill=white,inner sep=3pt,align=center,font=\fontsize{11}{12}\selectfont},
+maintext/.style={align=center,font=\bfseries\fontsize{11}{12}\selectfont,inner sep=0pt},
+badge/.style={circle,draw=competencygreen,fill=white,text=competencygreen,minimum size=5mm,inner sep=0pt,font=\bfseries\small},
+feedback/.style={draw=competencygreen,line width=1.1pt,-{Triangle[length=2mm]}},
+studybox/.style={draw=Accent,rounded corners=2pt,fill=Soft,align=center,inner sep=6pt,font=\small},
+flow/.style={-{Stealth[length=2mm]},thick,draw=Accent}}
+
+
+% Visible callouts are distinct from Beamer's speaker-note command \note.
+\newtcolorbox{mynote}[1][Note]{colback=white,colbacktitle=aquamarin,
+ coltitle=basalt,colframe=aquamarin,boxrule=.6pt,arc=1mm,
+ fonttitle=\bfseries,title={\strut#1},left=2mm,right=2mm,top=1.5mm,bottom=1.5mm}
+\newtcolorbox{myalert}[1][Alert]{colback=white,colbacktitle=karneol,
+ coltitle=white,colframe=karneol,boxrule=.6pt,arc=1mm,
+ fonttitle=\bfseries,title={\strut#1},left=2mm,right=2mm,top=1.5mm,bottom=1.5mm}
+\ifdefined\ShowSpeakerNotes
+ \hypersetup{draft}
+ \setbeameroption{show notes}
+\else
+ \setbeameroption{hide notes}
+\fi

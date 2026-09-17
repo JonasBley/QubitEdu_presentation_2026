@@ -1,0 +1,52 @@
+\ProvidesPackage{LeipzigModern}[2026/09/11 Modern overrides for LeipzigChemie]
+% The supplied Aquamarin blue is retained for brand elements.
+% Darkened with Basalt for legible emphasized text on white.
+\colorlet{LeipzigBlue}{aquamarin!45!basalt}
+\colorlet{Ink}{basalt}
+\colorlet{Accent}{LeipzigBlue}
+\colorlet{Soft}{aquamarin!15!white}
+\colorlet{Muted}{basalt!75!white}
+\setbeamercolor{normal text}{fg=Ink,bg=white}
+\setbeamercolor{structure}{fg=LeipzigBlue}
+\setbeamercolor{title}{fg=Ink}
+\setbeamercolor{frametitle}{fg=Ink}
+\setbeamercolor{block title}{fg=LeipzigBlue,bg=white}
+\setbeamercolor{block body}{fg=Ink,bg=white}
+\setbeamertemplate{blocks}[default]
+\setbeamerfont{title}{size=\LARGE,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{frametitle}{size=\Large,series=\bfseries}
+\setbeamerfont{block title}{size=\normalsize,series=\bfseries}
+\setbeamersize{text margin left=9mm,text margin right=9mm}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{}
+\setbeamertemplate{background}{}
+\setbeamertemplate{frametitle}{\vspace{3mm}\insertframetitle\par\vspace{2mm}}
+\setbeamertemplate{itemize item}{\small\textbullet}
+\setbeamertemplate{itemize subitem}{\tiny\textbullet}
+\setbeamercolor{itemize item}{fg=LeipzigBlue}
+\setbeamercolor{itemize subitem}{fg=LeipzigBlue}
+\setbeamertemplate{footline}{%
+ \hspace*{9mm}\begin{minipage}{\dimexpr\paperwidth-18mm\relax}
+ \color{karneol}\hrule height .35pt\vspace{1.4mm}
+ {\tiny\color{Muted}UNIVERSIT\"AT LEIPZIG\hfill\insertframenumber}
+ \vspace{2mm}\end{minipage}}
+\renewcommand{\titleHeaderLayout}{\includegraphics[width=4.2cm]{images/logo_leipzig.pdf}}
+\setbeamertemplate{title page}{%
+ \vspace{1mm}\titleHeaderLayout\par\vspace{6mm}
+ \begin{minipage}{.79\textwidth}
+ {\usebeamerfont{title}\inserttitle\par}\vspace{4mm}
+ {\usebeamerfont{subtitle}\color{LeipzigBlue}\insertsubtitle\par}\vspace{5mm}
+ {\insertauthor\par}\vspace{2mm}{\small\insertinstitute\par}
+ {\small\insertdate\par}\vspace{3mm}\inserttitlegraphic
+ \end{minipage}}
+\renewcommand{\maketableofcontents}{\begin{frame}{Overview}\tableofcontents[hideallsubsections]\end{frame}}
+% Retain LeipzigChemie's original geometric artwork on section pages.
+\renewcommand{\makesectionpopup}{\AtBeginSection[]{%
+ {\definepagelayoutwithAR\setbeamertemplate{footline}{}
+ \begin{frame}[plain,noframenumbering]
+ \begin{minipage}{.58\textwidth}\raggedright\LARGE\bfseries\insertsectionhead\end{minipage}
+ \end{frame}}}}
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamercolor{section in toc}{fg=LeipzigBlue}
+\setbeamertemplate{bibliography item}{}

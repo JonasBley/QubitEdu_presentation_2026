@@ -1,0 +1,95 @@
+% Adapted from the user's updated framework. The key is on the next slide.
+\begingroup
+\tikzset{
+original/.style={line width=1.1pt},
+relation/.style={line width=1.5pt,{Triangle[length=2mm]}-{Triangle[length=2mm]}},
+labelbox/.style={draw=black,line width=.4pt,fill=white,inner sep=3pt,align=left,font=\fontsize{10}{11}\selectfont},
+maintext/.style={align=center,font=\bfseries\fontsize{11}{12}\selectfont,inner sep=0pt},
+badge/.style={circle,draw=competencygreen,fill=white,text=competencygreen,minimum size=4.5mm,inner sep=0pt,font=\bfseries\small},
+feedback/.style={draw=competencygreen,line width=1.1pt,-{Triangle[length=2mm]}}
+}
+\begin{tikzpicture}[x=.01cm,y=-.01cm]
+% Learner, scientific model, and phenomenon.
+\draw[original] (85,686)
+  .. controls (60,660) and (46,626) .. (46,591)
+  .. controls (46,504) and (122,433) .. (216,433)
+  .. controls (310,433) and (385,504) .. (385,591)
+  .. controls (385,626) and (374,659) .. (350,686)
+  .. controls (373,714) and (385,749) .. (385,785)
+  .. controls (385,872) and (310,942) .. (216,942)
+  .. controls (122,942) and (46,872) .. (46,785)
+  .. controls (46,748) and (60,713) .. (85,686);
+\draw[original,densely dotted] (85,686)--(350,686);
+\draw[original] (650,316)
+  .. controls (637,295) and (630,272) .. (630,248)
+  .. controls (630,161) and (706,90) .. (800,90)
+  .. controls (894,90) and (970,161) .. (970,248)
+  .. controls (970,273) and (964,296) .. (952,316)
+  .. controls (963,338) and (969,360) .. (969,384)
+  .. controls (969,471) and (893,541) .. (800,541)
+  .. controls (706,541) and (629,471) .. (629,384)
+  .. controls (629,359) and (637,335) .. (650,316);
+\draw[original,densely dotted] (650,316)--(952,316);
+\draw[original] (1180,432) rectangle (1518,942);
+\draw[original] (1180,686)--(1518,686);
+
+% Relations. Orange labels describe scientific processes, not assessed skills.
+\draw[relation] (412,569)--(1141,569);
+\draw[relation] (412,808)--(1141,808);
+\draw[relation,alignmentblue] (385,571)--(632,246);
+\draw[relation,alignmentblue] (385,786)--(637,466);
+\draw[relation,modellingorange] (970,246)--(1180,578);
+\draw[relation,modellingorange] (950,470)--(1180,812);
+
+\node[maintext] at (216,380) {Learner\\Mental models};
+\node[maintext] at (797,69) {Physics model};
+\node[maintext] at (1348,407) {Worldly entity};
+\node[maintext] at (217,561) {Gestalt};
+\node[maintext] at (217,815) {Functionality};
+\node[maintext] at (800,204) {Selected\\Forms and\\Structures};
+\node[maintext] at (800,402) {Selected\\Functions};
+\node[maintext] at (1348,561) {Sensory\\patterns};
+\node[maintext] at (1348,815) {Functions};
+\node[labelbox,text=alignmentblue] at (492,430) {Structural\\alignment};
+\node[labelbox,text=alignmentblue] at (504,694) {Functional\\alignment};
+\node[labelbox,text=modellingorange] at (1075,385) {Structural\\modelling};
+\node[labelbox,text=modellingorange] at (1075,663) {Functional\\modelling};
+\node[labelbox,align=center] at (777,605) {Fidelity of Gestalt};
+\node[labelbox,align=center] at (792,855) {Functional fidelity};
+
+% Green markers denote the learner's activities at each relation.
+% 3 and 4 mean mapping model to phenomenon, not constructing scientific models.
+\node[badge] at (606,410) {1};
+\node[badge] at (620,675) {2};
+\node[badge] at (1138,319) {3};
+\node[badge] at (1138,597) {4};
+\node[badge] at (946,605) {6};
+\node[badge] at (960,855) {6};
+
+% Higher-order competency 5: compact upper-left annotation and smooth return.
+\draw[feedback,line cap=round,line join=round] (650,165)
+  .. controls (540,-20) and (20,-20) .. (20,185)
+  .. controls (20,290) and (216,285) .. (216,340);
+\node[anchor=north west,inner sep=3pt,align=left,text width=5cm,
+  text=competencygreen,font=\fontsize{7.5}{9.5}\selectfont] at (75,80)
+  {\textbf{Model selection and transformation}\\[3pt]
+   Choose and coordinate models and\\
+   representations for a purpose; use them\\
+   to inform one's own understanding};
+\node[badge] at (294,37) {5};
+% Evidence-based revision returns to both components of the mental model.
+\draw[feedback] (1350,950)
+  .. controls (1350,1006) and (1310,1020) .. (1230,1020)
+  -- (80,1020)
+  .. controls (-62,1020) and (-65,956) .. (-65,861)
+  -- (-65,648)
+  .. controls (-65,590) and (-28,590) .. (44,590);
+\draw[feedback] (-65,850)
+  .. controls (-65,793) and (-20,793) .. (43,793);
+\node[fill=white,inner sep=4pt,align=center,text=competencygreen,
+  font=\fontsize{8.2}{10.6}\selectfont] at (740,1020)
+  {\textbf{Learner competency: updating the mental model}\\
+   Test and evaluate; revise Gestalt and Functionality in response to evidence};
+\node[badge] at (210,1020) {7};
+\end{tikzpicture}
+\endgroup

@@ -1,0 +1,60 @@
+% Adapted from the supplied figure; coordinates compressed vertically for slides.
+\begin{tikzpicture}[x=.01cm,y=-.007cm]
+\draw[original] (85,686) .. controls (60,660) and (46,626) .. (46,591)
+.. controls (46,504) and (122,433) .. (216,433)
+.. controls (310,433) and (385,504) .. (385,591)
+.. controls (385,626) and (374,659) .. (350,686)
+.. controls (373,714) and (385,749) .. (385,785)
+.. controls (385,872) and (310,942) .. (216,942)
+.. controls (122,942) and (46,872) .. (46,785)
+.. controls (46,748) and (60,713) .. (85,686);
+\draw[original,densely dotted] (85,686)--(350,686);
+\draw[original] (650,316) .. controls (637,295) and (630,272) .. (630,248)
+.. controls (630,161) and (706,90) .. (800,90)
+.. controls (894,90) and (970,161) .. (970,248)
+.. controls (970,273) and (964,296) .. (952,316)
+.. controls (963,338) and (969,360) .. (969,384)
+.. controls (969,471) and (893,541) .. (800,541)
+.. controls (706,541) and (629,471) .. (629,384)
+.. controls (629,359) and (637,335) .. (650,316);
+\draw[original,densely dotted] (650,316)--(952,316);
+\draw[original] (1180,432) rectangle (1518,942);
+\draw[original] (1180,686)--(1518,686);
+\draw[relation] (412,569)--(1141,569);
+\draw[relation] (412,808)--(1141,808);
+\draw[relation,alignmentblue] (385,571)--(632,246);
+\draw[relation,alignmentblue] (385,786)--(637,466);
+\draw[relation,modellingorange] (970,246)--(1180,578);
+\draw[relation,modellingorange] (950,470)--(1180,812);
+\node[maintext] at (216,387) {Mental models};
+\node[maintext] at (797,45) {Physics model};
+\node[maintext] at (1348,387) {Worldly entity};
+\node[maintext] at (217,561) {Gestalt};
+\node[maintext] at (217,815) {Functionality};
+\node[maintext] at (800,204) {Selected forms\\and structures};
+\node[maintext] at (800,402) {Selected\\functions};
+\node[maintext] at (1348,561) {Sensory\\patterns};
+\node[maintext] at (1348,815) {Functions};
+\node[labelbox,text=alignmentblue] at (492,390) {Structural\\alignment};
+\node[labelbox,text=alignmentblue] at (504,694) {Functional\\alignment};
+\node[labelbox,text=modellingorange] at (1075,340) {Structural\\modelling};
+\node[labelbox,text=modellingorange] at (1075,694) {Functional\\modelling};
+\node[labelbox] at (777,620) {Fidelity of Gestalt};
+\node[labelbox] at (792,862) {Functional fidelity};
+\ifcompetencies
+\node[badge] at (602,370) {1};
+\node[badge] at (620,690) {2};
+\node[badge] at (1160,240) {3};
+\node[badge] at (1165,630) {4};
+\node[badge] at (980,45) {5};
+\node[badge] at (967,620) {6};
+\node[badge] at (983,862) {6};
+\draw[feedback] (1350,950) .. controls (1350,1006) and (1310,1020) .. (1230,1020)
+-- (80,1020) .. controls (-62,1020) and (-65,956) .. (-65,861)
+-- (-65,648) .. controls (-65,590) and (-28,590) .. (44,590);
+\draw[feedback] (-65,850) .. controls (-65,793) and (-20,793) .. (43,793);
+\node[labelbox,text=competencygreen] at (770,1020)
+{\textbf{Test, evaluate, and revise}\\Update Gestalt and Functionality in response to evidence};
+\node[badge] at (210,1020) {7};
+\fi
+\end{tikzpicture}

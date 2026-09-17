@@ -1,0 +1,26 @@
+\begin{tikzpicture}[node distance=7mm,studybox/.append style={font=\fontsize{9}{11}\selectfont,execute at begin node={\hyphenpenalty=10000}}]
+\node[studybox,text width=3.1cm] (expert) at (0,1.5) {\textbf{Expert pilot}\\Items, accuracy,\\agreement};
+\node[studybox,text width=3.1cm] (novice) at (0,-.5) {\textbf{Novice pilot}\\Usability and\\interpretation};
+\node[studybox,text width=3.1cm] (revise) at (0,-2.3) {\textbf{Refine and finalize}\\Instruments and applet};
+\draw[flow] (expert.east)--++(.35,0)|-(revise.east);
+\draw[flow] (novice)--(revise);
+\node[studybox,text width=2.0cm] (pre) at (4.25,1.5) {\textbf{Pre-test}\\FF, FG, FA, GA};
+\node[studybox,text width=2.0cm] (random) at (4.25,-.5) {\textbf{Randomize}\\Two conditions};
+\node[studybox,text width=2.55cm] (sphere) at (7.4,.35) {Jones + spatial\\\textbf{+ sphere}};
+\node[studybox,text width=2.55cm] (control) at (7.4,-1.05) {Jones + spatial\\\textbf{Control}};
+\node[studybox,text width=2.0cm] (post) at (10.55,-.35) {\textbf{Post-test}\\Outcomes and other measures};
+\draw[flow] (revise.east)--++(.6,0)|-(pre.west);
+\draw[flow] (pre)--(random);
+\draw[flow] (random.east)--++(.25,0)|-(sphere.west);
+\draw[flow] (random.east)--++(.25,0)|-(control.west);
+\draw[flow] (sphere.east)--++(.25,0)|-(post.west);
+\draw[flow] (control.east)--++(.25,0)|-(post.west);
+\node[studybox,draw=competencygreen,text width=4.5cm] (interview) at (5.9,-2.8) {Accompanying think-aloud observations};
+\node[studybox,text width=3.0cm] (integrate) at (10.55,-2.8) {Joint interpretation};
+% \draw[flow,dashed,draw=competencygreen] (random.south)|-(interview.west);
+\draw[flow,draw=competencygreen] (interview)--(integrate);
+\draw[flow] (post.south)--(integrate.north);
+\node[anchor=west,font=\bfseries\large,text=Accent] at (-1.8,2.65) {Phase 1: Pilot};
+\node[anchor=west,font=\bfseries\large,text=Accent] at (3.05,2.65) {Phase 2: Main study};
+\draw[gray!50,dashed] (2.25,2.8)--(2.25,-3.5);
+\end{tikzpicture}

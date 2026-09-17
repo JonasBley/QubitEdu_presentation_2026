@@ -1,0 +1,62 @@
+\section{The polarization applet}
+\subsection{Linked representations}
+
+\begin{frame}{Jones vectors and the Poincar\'e sphere}
+\begin{columns}[T,onlytextwidth]
+\column{0.55\textwidth}
+For a normalized, fully polarized state,
+\[
+\mathbf J=\begin{pmatrix}a\\b\,e^{i\varphi}\end{pmatrix},
+\qquad a,b\geq0,\quad a^2+b^2=1.
+\]
+The applet uses
+\[
+\mathbf S=\begin{pmatrix}
+a^2-b^2\\2ab\cos\varphi\\2ab\sin\varphi
+\end{pmatrix},\qquad \lVert\mathbf S\rVert=1,
+\]
+akin to Qubit on the Bloch sphere
+\(\ket{\psi}=\cos\frac{\vartheta}{2}\ket{0}
++e^{i\varphi}\sin\frac{\vartheta}{2}\ket{1}\)
+
+\column{0.40\textwidth}
+\placeholder{images/poincare_labels.png}{3.7cm}{Picture placeholder\\Poincar\'e sphere with\\$J_H,J_V,J_D,J_A,J_R,J_L$}
+\end{columns}
+\vspace{2mm}
+% \textbf{A point denotes a polarization state, not a position in the laboratory.}
+% \source{Equations and labels follow the applet's convention.}
+\note{With standard Pauli-matrix ordering for the same two-component state, the Bloch vector is (S2,S3,S1). Circular-polarization names depend on propagation and phase conventions. Keep the applet's convention throughout the presentation.}
+\end{frame}
+
+%\begin{frame}{What the geometric connection does and does not show}
+%\begin{itemize}
+%\item After choosing a basis and axis convention, pure qubit states and normalized Jones states share the same sphere geometry.
+%\item An overall phase does not change the represented state.
+%\item A lossless wave plate changes the state without reducing intensity.
+%\item A polarizer changes the transmitted state and usually reduces intensity. The sphere alone does not encode that intensity.
+%\end{itemize}
+%\keyidea{The teaching challenge is interpreting a mathematical state space without turning it into a literal physical object.}
+%\source{Jones-calculus implementation and the teaching rationale.}
+%\note{At zero transmitted intensity, a normalized output polarization state is undefined. Avoid using a sphere point to imply that an extinguished field has a measurable polarization. This presentation does not claim that classical polarization reproduces all quantum phenomena.}
+%\end{frame}
+
+\subsection{Conditions and tasks}
+\begin{frame}{Two versions of the applet}
+\begin{columns}[T,onlytextwidth]
+\column{0.48\textwidth}
+\textbf{Control: Polarization 2}
+\par Jones notation and\newline spatial wave graph.
+\vspace{2mm}
+\placeholder{images/control_applet.png}{2.7cm}{Screenshot placeholder\\Control condition}
+\column{0.48\textwidth}
+\textbf{Sphere: Polarization 1}
+\par Adds Poincar\'e sphere representation(s).
+\vspace{2mm}
+\placeholder{images/sphere_applet.png}{2.7cm}{Screenshot placeholder\\Sphere condition}
+\end{columns}
+\vspace{3mm}
+Both versions use guided parameter changes, hints, solutions, and explanatory feedback. The sphere first appears in step 3 of Polarization 1.
+\source{Condition mapping and timing: \texttt{app.py} and \texttt{challenges.py}.}
+\note{Use screenshots of the same optical state and step. The current versions also differ in instructional wording and one initial wave-plate angle. See the implementation appendix before describing the contrast as a purely visual manipulation.}
+\end{frame}
+
