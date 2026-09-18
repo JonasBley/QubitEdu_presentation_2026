@@ -1,0 +1,393 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{abdullah2016}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AF}{%
+         family={Abdullah},
+         familyi={A\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Ward},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AFWR1}
+    \strng{fullhash}{AFWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{238\bibrangedash 256}
+    \field{title}{Developing a General Extended Technology Acceptance Model for E-Learning ({GETAMEL}) by analysing commonly used external factors}
+    \field{volume}{56}
+    \field{journaltitle}{Computers in Human Behavior}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ainsworth2006}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Ainsworth},
+         familyi={A\bibinitperiod},
+         given={Shaaron},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS1}
+    \strng{fullhash}{AS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1016/j.learninstruc.2006.03.001
+    \endverb
+    \field{number}{3}
+    \field{pages}{183\bibrangedash 198}
+    \field{title}{{DeFT}: A conceptual framework for considering learning with multiple representations}
+    \field{volume}{16}
+    \field{journaltitle}{Learning and Instruction}
+    \field{year}{2006}
+  \endentry
+
+  \entry{bird_functions}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=AD}{%
+         family={Altshuler},
+         familyi={A\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bahlman},
+         familyi={B\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dakin},
+         familyi={D\bibinitperiod},
+         given={Roslyn},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gaede},
+         familyi={G\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GB}{%
+         family={Goller},
+         familyi={G\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lentink},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Segre},
+         familyi={S\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Skandalis},
+         familyi={S\bibinitperiod},
+         given={Dimitri},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD+1}
+    \strng{fullhash}{ADBJDRGAGBLDSPSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1139/cjz-2015-0103
+    \endverb
+    \field{pages}{961\bibrangedash 975}
+    \field{title}{The biophysics of bird flight: functional relationships integrate aerodynamics, morphology, kinematics, muscles, and sensors}
+    \field{volume}{93}
+    \field{journaltitle}{Canadian Journal of Zoology}
+    \field{month}{10}
+    \field{year}{2015}
+  \endentry
+
+  \entry{2026polarization}{software}{}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Bley},
+         familyi={B\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{{Polarization of Light Applet}}
+    \verb{url}
+    \verb https://github.com/JonasBley/streamlit_EM_wave_applet
+    \endverb
+    \field{version}{1.0.0}
+    \field{day}{28}
+    \field{month}{08}
+    \field{year}{2026}
+    \warn{\item Can't use 'date' + 'month' \item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{krieglstein2023}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=KF}{%
+         family={Krieglstein},
+         familyi={K\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beege},
+         familyi={B\bibinitperiod},
+         given={Maik},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RGD}{%
+         family={Rey},
+         familyi={R\bibinitperiod},
+         given={G{\"u}nter\bibnamedelima Daniel},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SSC}{%
+         family={Sanchez-Stockhammer},
+         familyi={S\bibinithyphendelim S\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={Sascha},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KF+1}
+    \strng{fullhash}{KFBMRGDSSCSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1007/s10648-023-09738-0
+    \endverb
+    \field{number}{1}
+    \field{pages}{9}
+    \field{title}{Development and Validation of a Theory-Based Questionnaire to Measure Different Types of Cognitive Load}
+    \field{volume}{35}
+    \field{journaltitle}{Educational Psychology Review}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Mayer2005Cognitive}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=MRE}{%
+         family={Mayer},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=MRE}{%
+         family={Mayer},
+         familyi={M\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{MRE1}
+    \strng{fullhash}{MRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{The Cambridge Handbook of Multimedia Learning}
+    \verb{doi}
+    \verb 10.1017/CBO9780511816819.004
+    \endverb
+    \field{pages}{31\bibrangedash 48}
+    \field{title}{Cognitive Theory of Multimedia Learning}
+    \field{year}{2005}
+  \endentry
+
+  \entry{ubben2022}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=UMS}{%
+         family={Ubben},
+         familyi={U\bibinitperiod},
+         given={Malte\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bitzenbauer},
+         familyi={B\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UMSBP1}
+    \strng{fullhash}{UMSBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{doi}
+    \verb 10.3390/educsci12030163
+    \endverb
+    \field{number}{3}
+    \field{pages}{163}
+    \field{title}{Two Cognitive Dimensions of Students' Mental Models in Science: Fidelity of Gestalt and Functional Fidelity}
+    \field{volume}{12}
+    \field{journaltitle}{Education Sciences}
+    \field{year}{2022}
+  \endentry
+
+  \entry{wiki:bird}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={WikimediaCommons},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{note}{[Online; accessed 17-September-2026]}
+    \field{title}{File:BIRD.jpg --- Wikimedia Commons{,} the free media repository}
+    \verb{url}
+    \verb https://commons.wikimedia.org/w/index.php?title=File:BIRD.jpg&oldid=8
+    \verb 90995192
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{young2025}{article}{}{}
+    \name{author}{8}{}{%
+      {{hash=YSR}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={S.\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={McKee},
+         familyi={M\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DDR}{%
+         family={Doyle},
+         familyi={D\bibinitperiod},
+         given={D.\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=NMA}{%
+         family={Novack},
+         familyi={N\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Revelle},
+         familyi={R\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gershon},
+         familyi={G\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DEM}{%
+         family={Dworak},
+         familyi={D\bibinitperiod},
+         given={E.\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YSR+1}
+    \strng{fullhash}{YSRKJMKDDRNMARWGRDEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.3390/jintelligence13120154
+    \endverb
+    \field{number}{12}
+    \field{pages}{154}
+    \field{title}{Validation of International Cognitive Ability Resource ({ICAR}) Implemented in Mobile Toolbox ({MTB})}
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Intelligence}
+    \field{year}{2025}
+  \endentry
+\enddatalist
+\endinput

@@ -15,6 +15,9 @@
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\source}[1]{\par\vspace{2mm}{\scriptsize\color{Muted}#1\par}}
+\newcommand{\insertSlideSource}{}
+\newcommand{\slidesource}[1]{\gdef\insertSlideSource{#1}}
+\AtBeginEnvironment{frame}{\gdef\insertSlideSource{}}
 \newcommand{\keyidea}[1]{\par\vspace{2mm}{\normalsize\bfseries\color{LeipzigBlue}#1\par}}
 \newcommand{\ket}[1]{\lvert #1\rangle}
 \newcommand{\placeholder}[3]{%

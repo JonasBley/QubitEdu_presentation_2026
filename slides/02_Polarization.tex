@@ -25,6 +25,7 @@ akin to Qubit on the Bloch sphere
 \vspace{2mm}
 % \textbf{A point denotes a polarization state, not a position in the laboratory.}
 % \source{Equations and labels follow the applet's convention.}
+\slidesource{Polarization applet Github \citep{2026polarization}}
 \note{With standard Pauli-matrix ordering for the same two-component state, the Bloch vector is (S2,S3,S1). Circular-polarization names depend on propagation and phase conventions. Keep the applet's convention throughout the presentation.}
 \end{frame}
 
@@ -41,22 +42,18 @@ akin to Qubit on the Bloch sphere
 %\end{frame}
 
 \subsection{Conditions and tasks}
-\begin{frame}{Two versions of the applet}
+\begin{frame}{The applet}
 \begin{columns}[T,onlytextwidth]
 \column{0.48\textwidth}
-\textbf{Control: Polarization 2}
-\par Jones notation and\newline spatial wave graph.
-\vspace{2mm}
-\placeholder{images/control_applet.png}{2.7cm}{Screenshot placeholder\\Control condition}
+\textbf{Control:} Jones notation and spatial wave graph.
 \column{0.48\textwidth}
-\textbf{Sphere: Polarization 1}
-\par Adds Poincar\'e sphere representation(s).
-\vspace{2mm}
-\placeholder{images/sphere_applet.png}{2.7cm}{Screenshot placeholder\\Sphere condition}
+\textbf{Experimental:} Adding Poincar\'e sphere.
 \end{columns}
-\vspace{3mm}
-Both versions use guided parameter changes, hints, solutions, and explanatory feedback. The sphere first appears in step 3 of Polarization 1.
-\source{Condition mapping and timing: \texttt{app.py} and \texttt{challenges.py}.}
+\includegraphics[width=0.8\textwidth]{images/applet.png}
+
+Introductory explanations, guided parameter changes, hints, and solutions. 
+% \source{Condition mapping and timing: \texttt{app.py} and \texttt{challenges.py}.}
+\slidesource{Polarization applet Github \citep{2026polarization}}
 \note{Use screenshots of the same optical state and step. The current versions also differ in instructional wording and one initial wave-plate angle. See the implementation appendix before describing the contrast as a purely visual manipulation.}
 \end{frame}
 
