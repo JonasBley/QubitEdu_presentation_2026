@@ -262,6 +262,60 @@
     \field{year}{2005}
   \endentry
 
+  \entry{Rexigel2024}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=RE}{%
+         family={Rexigel},
+         familyi={R\bibinitperiod},
+         given={Eva},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kuhn},
+         familyi={K\bibinitperiod},
+         given={Jochen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Malone},
+         familyi={M\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RE+1}
+    \strng{fullhash}{REKJBSMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Over the last decades, a multitude of results in educational and psychological research have shown that the implementation of multiple external representations (MERs) in educational contexts represents a valuable tool for fostering learning and problem-solving skills. The context of science, technology, engineering, and mathematics (STEM) education has received great attention because it necessitates using various symbolic (e.g., text and formula) and graphical representations (e.g., pictures and graphs) to convey subject content. Research has mainly explored effects of combining two representations, but the potential benefits of integrating more than two representations on students' learning remain underexplored. This gap limits our understanding of promising educational practices and restricts the development of effective teaching strategies catering to students' cognitive needs. To close this gap, we conducted a systematic review of 46 studies and a meta-analysis that included 132 effect sizes to evaluate the effectiveness of using more than two representations in STEM education and to identify moderating factors influencing learning and problem-solving. A network diagram analysis revealed that the advantages of learning and problem-solving with MERs are also applicable to more than two representations. A subsequent meta-analysis revealed that the learning with more than two representations in STEM can have advantageous effects on students cognitive load ({\$}{\$}{\{}{\backslash}text{\{}Hedges{\}}{\}}{\{}^{\backslash}prime{\}}g =0.324,{\textasciitilde}p<.001,{\textasciitilde}95{\backslash}{\%}{\textasciitilde}{\backslash}text{\{}CI{\}}{\textasciitilde}[0.164, 0.484]{\$}{\$}) and performance ({\$}{\$}{\{}{\backslash}text{\{}Hedges{\}}{\}}{\{}^{\backslash}prime{\}}g =0.118,{\textasciitilde}p<.001,{\textasciitilde}95{\backslash}{\%}{\textasciitilde}{\backslash}text{\{}CI{\}}{\textasciitilde}[0.050, 0.185]{\$}{\$}) compared to learning with two representations without notable differences in learning time. The analysis of moderating factors revealed that benefits of learning with more than two representations primarily depend on the provision of appropriate support.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10648-024-09958-y
+    \endverb
+    \field{issn}{1573-336X}
+    \field{number}{4}
+    \field{pages}{124}
+    \field{title}{The More the Better? A Systematic Review and Meta-Analysis of the Benefits of More than Two External Representations in STEM Education}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10648-024-09958-y
+    \endverb
+    \field{volume}{36}
+    \field{journaltitle}{Educational Psychology Review}
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{ubben2022}{article}{}{}
     \name{author}{2}{}{%
       {{hash=UMS}{%
