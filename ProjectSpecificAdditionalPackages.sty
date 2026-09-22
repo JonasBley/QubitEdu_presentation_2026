@@ -18,7 +18,7 @@
 \newcommand{\insertSlideSource}{}
 \newcommand{\slidesource}[1]{\gdef\insertSlideSource{#1}}
 \AtBeginEnvironment{frame}{\gdef\insertSlideSource{}}
-\newcommand{\keyidea}[1]{\par\vspace{2mm}{\normalsize\bfseries\color{LeipzigBlue}#1\par}}
+\newcommand{\keyidea}[1]{\par\vspace{2mm}{\centering\normalsize\bfseries\color{LeipzigBlue}#1\par}}
 \newcommand{\ket}[1]{\lvert #1\rangle}
 \newcommand{\placeholder}[3]{%
  \IfFileExists{#1}{\includegraphics[width=\linewidth,height=#2,keepaspectratio]{#1}}{%

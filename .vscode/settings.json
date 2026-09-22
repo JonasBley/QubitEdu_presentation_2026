@@ -1,5 +1,7 @@
 {
   "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.latex.recipe.default": "lualatex ➞ bibtex ➞ lualatex`×2",
   "latex-workshop.latex.tools": [
