@@ -184,14 +184,14 @@ No additional questions or activities are introduced.
 
 \begin{frame}{Research questions}
 \footnotesize
-\begin{myalert}[Main Research Question 1]
+\begin{myalert}[Research Question 1]
     (How) does the Poincaré sphere visualization change thinking in Fidelity of Gestalt (FG) and/or Functional Fidelity (FF) internal models on polarization?
 \end{myalert}
-\begin{myalert}[Main Research Question 2]
-    Does the Poincaré sphere visualization increase alignment with expert views on Gestalt and Function?
+\begin{myalert}[Research Question 2]
+    (To what extent) does the Poincaré sphere visualization increase alignment with expert views on Gestalt and Function?
 \end{myalert}
-\begin{myalert}[Main Research Question 3]
-(To which extend) are the interactions mediated by cognitive load, spatial reasoning ability, and baseline FG?
+\begin{myalert}[Research Question 3]
+(To what extent) are the interactions mediated by cognitive load, spatial reasoning ability, and baseline FG?
 \end{myalert}
 
 
@@ -200,11 +200,11 @@ No additional questions or activities are introduced.
 \end{frame}
 \begin{frame}{Hypotheses}
 \footnotesize
-\begin{mynote}[H1a: including the architectural profile]
-For learners with high FG and low FF, the sphere may make functions accessible: wave plates act as \textbf{rotations} of the state, while polarizers perform \textbf{projections} of the Jones state.
+\begin{mynote}[H1a: Including the architectural profile]
+For learners with high FG and low FF, the sphere may make functions accessible: Wave plates act as \textbf{rotations} of the state, while polarizers perform \textbf{projections} of the Jones state.
 \end{mynote}
 
-\begin{mynote}[H1b: including the dual profile]
+\begin{mynote}[H1b: Including the dual profile]
 For learners with high FG and high FF, contrasting the spatial wave representation with the abstract sphere may challenge literal interpretations and reduce FG while FF stays high.
 \end{mynote}
 \begin{mynote}[H2: Multimedia effect]
@@ -233,7 +233,7 @@ The support with an additional visual representation may increase expert alignme
 % \source{Accompanying think-aloud observations capture reasoning during existing applet tasks.}
 \end{frame}
 
-\begin{frame}{Phase 1: calibrate the instruments and the applet}
+\begin{frame}{Phase 1: Calibrate the instruments and the applet}
 \begin{columns}[T,onlytextwidth]
 \column{.47\textwidth}
 \textbf{Expert pilot}
@@ -254,31 +254,55 @@ The support with an additional visual representation may increase expert alignme
 \note{The preregistration drops items with IQR greater than 1 and also assesses overall inter-rater reliability. Pilot sizes and the reliability statistic are not specified. It describes think-aloud interviews or questionnaires in the novice pilot. Accompanying main-study observations follow the user's updated plan: existing tasks without additional questions or activities.}
 \end{frame}
 
-\begin{frame}{Phase 2: randomized pre/post comparison}
+\begin{frame}{Phase 2: Randomized pre/post comparison}
 \begin{tabularx}{\textwidth}{@{}P{.18\textwidth}Y@{}}
 \toprule
 \textbf{Pre-test} & FF, FG, FA, and GA\\
 \textbf{Intervention} & Random assignment to guided polarization tasks with or without the added sphere\\
-\textbf{Post-test} & FF, FG, FA, GA; cognitive load and spatial reasoning \citep{young2025}, demographic information\\
+\textbf{Post-test} & FF, FG, FA, GA; cognitive load \citep{krieglstein2023} and spatial reasoning \citep{young2025}, demographic information\\
 \bottomrule
 \end{tabularx}\par
 \vspace{3mm}
 \textbf{Population:} second- and third-year physics / related STEM undergraduates.\\[2mm]
-\textbf{Target:} $N=218$ recruited; minimum analyzable sample $N=196$.
+\textbf{Target:} Power analysis: $N=218$ recruited; minimum analyzable sample $N=196$.
+
+We need your help to recruit participants for the online study! 
 \note{Recruitment: Leipzig University and affiliated networks. The preregistration specifies single blinding: participants are naive to the manipulation and told broadly that the study concerns visual learning aids in physics. Random assignment occurs when the web app initializes. Registered power assumptions: f-squared .0625, power .80, alpha .05, four outcomes, two groups, two covariates. This slide does not recompute power or set an observation sample size.}
 \end{frame}
 
-
-\begin{frame}{Think-aloud observations: investigating mechanisms}
-Students verbalize their thoughts while working through the existing applet tasks.
+\begin{frame}{Measures and protocol decisions}
+\small
 \begin{itemize}
-\item Observe how students attempt to incorporate the Poincar\'e sphere into their thinking.
-\item Trace difficulties in connecting graph, symbolic, and sphere representations.
-\item Examine spontaneously expressed conflicts between literal interpretations and functional relationships.
-\item Follow how these conflicts are resolved, maintained, or bypassed during task engagement.
+\item Cognitive load: Extraneous (5 questions), Intrinsic (5) and Germane (7), 9-point Likert scale \citep{krieglstein2023}
+\item General Extended Technology Acceptance Model for
+E-Learning (GETAMEL, only in pilot study, 7-point Likert scale): \citep{abdullah2016}
+\begin{itemize}
+    \item Perceived Usefulness
+    \item Perceived Ease of Use
+    \item E-Learning Self-Efficacy
+    \item Perceived Enjoyment
 \end{itemize}
-\keyidea{The observations can provide evidence for mechanisms underlying learning and difficulties with mental models.}
-\note{The observations may support causal explanations of individual learning episodes. For example, a student might express a literal interpretation, encounter a conflicting representation, and then revise their interpretation. Evidence of confusion alone does not establish cognitive dissonance or identify a dual-type profile. Interpret verbalizations alongside task actions and baseline FF/FG measurements. Students may not verbalize every relevant process. No additional reflection prompts or follow-up questions are planned.}
+\item Spatial reasoning: Measured using the open-source 3D Block Rotation scale from the International Cognitive
+Ability Resource (ICAR) \citep{young2025}
+% \item Specify observation sampling, recording, consent, and coding before collection. Observe existing tasks without added prompts, activities, or follow-up questions.
+% \item Reconcile the stated covariate count, missing spatial-reasoning data, and the final primary-analysis specification.
+% \item Retain the preregistered completion exclusions. Clarify how the primary model includes SRA while retaining participants with missing SRA.
+% \item Match tutorial wording and starting states; prevent control-group sphere exposure before the post-test; verify participant matching and timing records.
+\end{itemize}
+\note{The preregistration excludes early termination and completion more than two standard deviations below the cohort median from primary efficacy testing. Missing cognitive-load or SRA scores exclude a record from H3, while psychometric records are explicitly retained for H1/H2 and H4. This conflicts with using SRA as a primary-model covariate unless missing-data handling is specified. Reconcile the specification before analysis; no imputation or alternative exclusion rule is introduced here.}
+\end{frame}
+
+
+\begin{frame}{Think-aloud observations: Investigating mechanisms}
+Observe the students'
+\begin{itemize}
+\item attempts to incorporate the Poincar\'e sphere into their thinking.
+\item difficulties in connecting representations.
+\item Expressed conflicts.
+\item Conflict resolution.
+\end{itemize}
+\keyidea{The observations can provide evidence for mechanisms underlying learning and limtations of mental models.}
+\note{Students verbalize their thoughts while working through the existing applet tasks. The observations may support causal explanations of individual learning episodes. For example, a student might express a literal interpretation, encounter a conflicting representation, and then revise their interpretation. Evidence of confusion alone does not establish cognitive dissonance or identify a dual-type profile. Interpret verbalizations alongside task actions and baseline FF/FG measurements. Students may not verbalize every relevant process. No additional reflection prompts or follow-up questions are planned.}
 \end{frame}
 % \begin{frame}{Bring quantitative outcomes and verbal reasoning together}
 % \begin{columns}[T,onlytextwidth]
