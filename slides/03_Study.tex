@@ -18,7 +18,7 @@
     explanation/.style={
         align=center,
         text=LeipzigBlue,
-        font=\scriptsize\bfseries,
+        font=\scriptsize,
         fill=white,
         inner sep=3pt
     }
@@ -50,7 +50,7 @@
     Low FG, low FF
 };
 
-\node[profile,text=competencygreen] at (8,.85) {
+\node[profile] at (8,.85) {
     \textbf{Functional}\\
     Low FG, high FF\\
     Function without literal-copy belief
@@ -59,7 +59,7 @@
 % Architectural to dual: increasing FF
 \draw[pathway] (4.15,3.5) -- (6.15,3.5)
     node[midway,above=5pt,explanation,text width=2.6cm] {
-        H1a: Visualization makes\\
+        \textbf{H1a:} Visualization makes\\
         functions accessible
     };
 
@@ -71,7 +71,7 @@
     anchor=west,
     text width=2.6cm
 ] at (10.1,2) {
-    H1b: Contrasting representations
+    \textbf{H1b:} Contrasting representations
     challenges literal interpretations
 };
 
@@ -227,7 +227,7 @@ The support with an additional visual representation may increase expert alignme
 
 
 \subsection{Two-phase study}
-\begin{frame}{Study structure: pilot, then main study}
+\begin{frame}{Study structure}
 \centering
 \resizebox{!}{5.35cm}{\input{figures/study_structure.tex}}
 % \source{Accompanying think-aloud observations capture reasoning during existing applet tasks.}
