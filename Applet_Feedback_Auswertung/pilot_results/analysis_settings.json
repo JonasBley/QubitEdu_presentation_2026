@@ -1,0 +1,16 @@
+{
+  "input": "results-survey658185(2).csv",
+  "delimiter": "'\\t'",
+  "total_responses": 11,
+  "submitted": 10,
+  "quantitative_included": 10,
+  "included_by_group": {
+    "Without Poincaré sphere": 6,
+    "With Poincaré sphere": 4
+  },
+  "without_sphere_raw_group": "1",
+  "text_responses": 42,
+  "minimum_item_fraction": 1.0,
+  "scoring": "Unweighted participant means; no imputation or reverse coding.",
+  "comment_scope": "All nonempty free-text responses, regardless of submission status."
+}

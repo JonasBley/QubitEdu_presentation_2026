@@ -31,3 +31,10 @@ The applet source was not supplied in this ZIP. Existing descriptions of conditi
 ## Images and pilot placeholders
 Replace the image files listed in images/README.md. Image placeholders render until each file exists.
 Pilot findings remain clearly labeled placeholders. No observations or results have been invented.
+
+## Revision of 25 September 2026
+The revised slides consistently use FF, FG, FA, and GA (structural/Gestalt alignment). Overall directional hypotheses are separate from exploratory profile pathways. RQ3 distinguishes moderation from cognitive-load associations. The revised primary MANCOVA adjusts for the four baseline outcomes; cognitive load and post-session spatial reasoning are reserved for exploratory analyses. This presentation change does not amend the OSF registration. Verify and document any departure and revisit power, follow-up tests, and missing-data handling before analysis. This section supersedes conflicting earlier analysis descriptions above.
+
+The cognitive-load slide now describes the final validated 15-item instrument (5 per subscale), not its initial 17-item pool. The survey and pilot scoring were unavailable and have not been changed. Confirm the implemented version before interpreting results.
+
+Recent fidelity development and polarization/state-circle evidence are cited. The existing explanation of FG decrease remains unchanged at the user's request. No new learner tasks or reflection prompts were added.

@@ -148,6 +148,40 @@
     \field{year}{2015}
   \endentry
 
+  \entry{bitzenbauer2025}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Bitzenbauer},
+         familyi={B\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=UMS}{%
+         family={Ubben},
+         familyi={U\bibinitperiod},
+         given={Malte\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BPUMS1}
+    \strng{fullhash}{BPUMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1140/epjqt/s40507-025-00316-7
+    \endverb
+    \field{pages}{16}
+    \field{title}{The structure of learners' perceptions of models (not only)
+  in quantum physics: spotlight on Fidelity of Gestalt and Functional Fidelity}
+    \field{volume}{12}
+    \field{journaltitle}{EPJ Quantum Technology}
+    \field{year}{2025}
+  \endentry
+
   \entry{2026polarization}{software}{}{}
     \name{author}{1}{}{%
       {{hash=BJ}{%
@@ -424,6 +458,48 @@
     \field{volume}{21}
     \field{journaltitle}{Physical Review Physics Education Research}
     \field{year}{2025}
+  \endentry
+
+  \entry{toth2024}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=TK}{%
+         family={T{\'o}th},
+         familyi={T\bibinitperiod},
+         given={Krist{\'o}f},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Michelini},
+         familyi={M\bibinitperiod},
+         given={Marisa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bitzenbauer},
+         familyi={B\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TK+1}
+    \strng{fullhash}{TKMMBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.29333/ejmste/14587
+    \endverb
+    \field{number}{6}
+    \field{pages}{em2449}
+    \field{title}{From light polarization to quantum physics: Supporting lower
+  secondary school students' transition from gestalt to functional thinking}
+    \field{volume}{20}
+    \field{journaltitle}{Eurasia Journal of Mathematics, Science and Technology
+  Education}
+    \field{year}{2024}
   \endentry
 
   \entry{ubben2022}{article}{}{}

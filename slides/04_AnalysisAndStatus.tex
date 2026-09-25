@@ -7,107 +7,91 @@
 \[
 \mathbf{Y}_{\mathrm{post}}=
 \begin{pmatrix}
-FF_{\mathrm{post}}\\ FG_{\mathrm{post}}\\ StA_{\mathrm{post}}\\ GA_{\mathrm{post}}
+FF_{\mathrm{post}}\\ FG_{\mathrm{post}}\\ FA_{\mathrm{post}}\\ GA_{\mathrm{post}}
 \end{pmatrix}
 \]
 \column{.69\textwidth}
 \begin{itemize}
 \item \textbf{Factor:} condition, with or without the additional Poincar\'e sphere.
-\item \textbf{Covariates:} baseline FF, FG, StA, and GA, cognitive load, and spatial reasoning ability to assess RQ 2.
+\item \textbf{Covariates:} baseline FF, FG, FA, and GA.
+\item \textbf{Target:} total condition effect on post-test outcomes (RQ1 and RQ2).
 \end{itemize}
 \end{columns}
-\note{This restores the planned MANCOVA framework. GA is the study's label for structural/Gestalt alignment. The final specification should reconcile the covariate count in the power calculation with the baseline measures and SRA. Specify follow-up tests, multiplicity handling, and treatment of missing covariate data before analysis.}
+\medskip
+\textbf{Exploratory (RQ3):} moderation by baseline fidelities and spatial reasoning; associations with reported cognitive load.
+\note{GA denotes structural/Gestalt alignment and FA functional alignment. The revised primary specification adjusts for the four baseline outcomes, not post-intervention cognitive load or spatial reasoning. Cognitive load may be affected by the intervention; ordinary adjustment would not estimate the total effect and does not automatically identify a direct effect. Spatial reasoning is measured after the applet, so its use as an aptitude moderator requires justification that treatment and differential fatigue do not affect its measurement. Baseline FG can moderate a later effect but cannot mediate it.
+
+Keep load analyses exploratory and associational; post-session load and outcome measures alone do not identify causal mediation. Profile-specific moderation would require both baseline FF and FG, not FG alone. Reconcile the power calculation's two-covariate assumption with the revised four-baseline model. Specify follow-up directional contrasts, multiplicity, and missing-data handling before analysis. Record this revised analysis specification and any departure from registration transparently. The registration was not independently reverified and has not been modified.}
 \end{frame}
 
-\begin{frame}{Technological Acceptance: Perceived Usefulness and Ease of Use}
+\begin{frame}{Student feedback: Usefulness and usability}
 
 \small
 \begin{columns}[T,onlytextwidth]
-
-% ---------- Left column ----------
-\begin{column}{0.49\textwidth}
-
+\column{.48\textwidth}
 \begin{mynote}[Perceived Usefulness]
 \begin{itemize}
-    \item Interactive graphics made the effects of parameter changes immediately visible.
-    \item Hints and direct experimentation supported learning.
-    \item Missing examples and definitions reduced the perceived learning value.
+\item Students valued interactive graphics and seeing parameter changes immediately.
+\item Hints helped, including guidance without revealing the answer.
+\item Requests included more examples and fuller explanations, a glossary and definitions of polarization and circular handedness.
 \end{itemize}
 \end{mynote}
-
-\end{column}
-
-% ---------- Right column ----------
-\begin{column}{0.49\textwidth}
-
-\begin{mynote}[Perceived Ease of Use]
+\column{.48\textwidth}
+\begin{mynote}[Perceived Usability]
 \begin{itemize}
-    \item Camera resets, scrolling, and perspective controls disrupted interaction.
-    \item Sliders were sometimes difficult to adjust precisely.
-    \item Participants wanted easier access to instructions, formulas, and previous content.
+\item Camera resets, perspective controls, and scrolling caused difficulties.
+\item Requests included typed values and persistent display choices.
+\item Tasks and plots were hard to view together; earlier formulas were inaccessible.
 \end{itemize}
 \end{mynote}
-
-\end{column}
 \end{columns}
+\source{Summary of open-ended pilot feedback: 8 respondents across questions.}
+\note{Source: pilot\_results/comments.md, read 25 September 2026. Eight distinct respondents supplied substantive comments across questions (1, 2, 3, 5, 6, 8, 9, 10); item response counts vary. These are qualitative comments, not the GETAMEL scale results. Preserve the supplied historical condition labels: without sphere = Polarization 1, with sphere = Polarization 2. The current applet uses the opposite module mapping from step 3, so its module names must not be used to relabel the pilot.
 
+Interactive graphics and parameter manipulation appear in responses 1, 2, 6, 8, 9, and 10. Hints are mentioned positively by 3 and 9; 6 also values advice and explanations. Response 3 requests operator examples and finds explanations too short. Response 5 reports scrolling trapped over plots and formulas unreadable on smaller screens. Response 6 reports camera resets and touchpad difficulty; responses 1, 9, and 10 mention zoom or perspective controls. Response 2 requests numeric entry. Response 9 reports display selections resetting, delayed vector brackets, and task/plot separation. Responses 8 and 9 request returning to the top after advancing. Response 10 requests access to earlier formulas. These describe the pilot experience, not verified defects in the current version.}
 \end{frame}
 
-\begin{frame}{Technological Acceptance: Self-Efficacy and Enjoyment}
-
+\begin{frame}{Student feedback: E-Learning self-effcacy and enjoyment}
 \small
 \begin{columns}[T,onlytextwidth]
-
-% ---------- Left column ----------
-\begin{column}{0.49\textwidth}
-
-\begin{mynote}[Self-Efficacy]
+\column{.48\textwidth}
+\begin{mynote}[E-Learning self-efficacy]
 \begin{itemize}
-    \item Hints enabled participants to proceed independently.
-    \item Some completed the tasks despite uncertainty about matrices and terminology.
-    \item Task completion did not necessarily indicate conceptual confidence.
+\item Hints enabled participants to proceed independently.
+\item A student solved tasks despite uncertainty about matrices and terminology.
+\item Task completion did not necessarily indicate conceptual confidence.
 \end{itemize}
 \end{mynote}
-
-\end{column}
-
-% ---------- Right column ----------
-\begin{column}{0.49\textwidth}
-
+\column{.48\textwidth}
 \begin{mynote}[Enjoyment]
 \begin{itemize}
-    \item Participants enjoyed manipulating parameters and observing graphical changes.
-    \item Solving successive tasks created motivation similar to a reward system.
-    \item Complex content and awkward controls reduced enjoyment.
+\item Students enjoyed changing the graphics and using the simulation.
+\item One student compared successive tasks to a game's reward system.
+\item Complex content and awkward controls reduced enjoyment.
 \end{itemize}
 \end{mynote}
-\end{column}
 \end{columns}
+\source{Summary of Open-ended pilot feedback: 8 respondents across questions.}
+\note{Response 1 describes progressing without fully understanding technical terms and uncertainty about matrices. These are two comments from one respondent, not evidence that multiple students completed tasks without understanding. Response 9 asks for a glossary, a brief polarization definition, and definitions of right/left circular polarization. Response 1 asks why the activity was done and what it has to do with quantum physics. Response 8 reports complex formulas and overly complex content. Response 6 identifies circular/rotated light as interesting; response 10 identifies the mathematical background of linear polarizers. These examples qualify any blanket statement that the mathematical material was disliked.
 
-\begin{beamercolorbox}[
-    wd=\textwidth,
-    sep=0.7em,
-    rounded=true
-]{block body alerted}
-\centering
-\end{beamercolorbox}
-
+The reward-system analogy comes from response 1 alone. Positive comments from the sphere condition refer to interactive or three-dimensional graphics generally; none specifically identifies the sphere as the source of a benefit. This does not establish no sphere effect. Some optional field-of-study entries identify school students, so do not assume this pilot has the main study's undergraduate population. Do not infer measured self-efficacy gains, objective learning gains, or theme prevalence from these comments.}
 \end{frame}
 
 \begin{frame}{Outlook}
 \textbf{Pilot study takeaways:} 
 \begin{itemize}
-    \item Interactivity and visualization were valued most.
-    \item Usability problems and insufficient conceptual guidance were the main barriers.
-    \item The comments do not reveal a distinct benefit of the Poincaré sphere.
+    \item Students valued interactivity, graphics, and hints.
+    \item Comments identified usability difficulties and requests for conceptual guidance.
+    \item The comments do not isolate a benefit of the Poincaré sphere.
 \end{itemize}
 \textbf{Next steps:} 
 \begin{itemize}
     \item Collect the remaining expert data and conduct the main study.
-    \item Conduct the planned MANCOVA and follow-up tests.
-    \item Integrate quantitative outcomes with think-aloud observations to investigate learning mechanisms.
-    \item Report findings and implications for model understanding and the  visualizations in physics education.
+    \item As physics education experts, we need your help (open until 09th October 2026): 
 \end{itemize}
+\centering
+\qrcode{https://nimble.li/omz88r4m} \\
+\url{https://nimble.li/omz88r4m}
 \end{frame}
 
 % \begin{frame}{Initial pilot findings}

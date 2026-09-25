@@ -1,7 +1,7 @@
 \section{Hypotheses and study design}
 \subsection{Expected effects and proposed mechanism}
 
-\begin{frame}{Possible changes in model understanding}
+\begin{frame}{Possible changes in fidelity beliefs}
 \centering
 
 \begin{tikzpicture}[
@@ -59,7 +59,7 @@
 % Architectural to dual: increasing FF
 \draw[pathway] (4.15,3.5) -- (6.15,3.5)
     node[midway,above=5pt,explanation,text width=2.6cm] {
-        \textbf{H1a:} Visualization makes\\
+        Visualization makes\\
         functions accessible
     };
 
@@ -71,14 +71,13 @@
     anchor=west,
     text width=2.6cm
 ] at (10.1,2) {
-    \textbf{H1b:} Contrasting representations
+    Contrasting representations
     challenges literal interpretations
 };
 
 \end{tikzpicture}
 
-% \source{Profiles after \citep{ubben2022}.
-% Arrows indicate hypothesized pathways, not established effects.}
+\source{Possible pathways, not established transitions \citep{bitzenbauer2025}.}
 
 \note{
 The first pathway concerns learners with high FG and low FF.
@@ -94,7 +93,7 @@ sphere may challenge literal interpretations. FG may decrease
 while FF remains high, corresponding to movement toward the
 functional profile.
 
-These pathways need not occur sequentially or in every learner.
+These pathways are exploratory, not the primary H1 tests. They need not occur sequentially or in every learner. Distinguishing architectural and dual starting profiles requires both baseline FF and FG. An overall condition effect, or a condition-by-FG interaction alone, does not establish a profile-specific transition. Do not infer stable FF from a nonsignificant change.
 The study measures continuous FF and FG scores rather than
 fixed categories. Expert alignment, assessed through FA and GA,
 is also part of model understanding and may change along either
@@ -185,13 +184,13 @@ No additional questions or activities are introduced.
 \begin{frame}{Research questions}
 \footnotesize
 \begin{myalert}[Research Question 1]
-    (How) does the Poincaré sphere visualization change thinking in Fidelity of Gestalt (FG) and/or Functional Fidelity (FF) internal models on polarization?
+    How does the added Poincaré sphere affect Functional Fidelity (FF) and Fidelity of Gestalt (FG) in learners' models of polarization?
 \end{myalert}
 \begin{myalert}[Research Question 2]
-    (To what extent) does the Poincaré sphere visualization increase alignment with expert views on Gestalt and Function?
+    Does the added sphere improve functional alignment (FA) and structural/Gestalt alignment (GA) with expert views?
 \end{myalert}
 \begin{myalert}[Research Question 3]
-(To what extent) are the interactions mediated by cognitive load, spatial reasoning ability, and baseline FG?
+Do effects vary with baseline fidelity beliefs and spatial reasoning? How do reported cognitive load and learning outcomes relate? (Exploratory)
 \end{myalert}
 
 
@@ -199,30 +198,19 @@ No additional questions or activities are introduced.
 \note{These are candidate pathways, not established effects or fixed learner trajectories. A wave plate rotates the normalized Stokes vector. An ideal polarizer projects the Jones vector onto its transmission state, followed by normalization for a sphere point. It is not generally a Euclidean projection of a sphere point. The sphere alone does not encode transmission intensity. At zero transmitted intensity, no normalized output state is defined. Cognitive dissonance is one possible explanation for spontaneously expressed conflict, not an inference from confusion alone. Functional understanding can also develop without dissonance.}
 \end{frame}
 \begin{frame}{Hypotheses}
-\footnotesize
-\begin{mynote}[H1a: Including the architectural profile]
-For learners with high FG and low FF, the sphere may make functions accessible: Wave plates act as \textbf{rotations} of the state, while polarizers perform \textbf{projections} of the Jones state.
-\end{mynote}
-
-\begin{mynote}[H1b: Including the dual profile]
-For learners with high FG and high FF, contrasting the spatial wave representation with the abstract sphere may challenge literal interpretations and reduce FG while FF stays high.
-\end{mynote}
-\begin{mynote}[H2: Multimedia effect]
-The support with an additional visual representation may increase expert alignment \citep{Rexigel2024}.
-\end{mynote}
-% \begin{tabularx}{\textwidth}{@{}P{.11\textwidth}P{.30\textwidth}Y@{}}
-% \toprule
-% & \textbf{Outcome} & \textbf{Sphere versus control, adjusted for baseline}\\
-% \midrule
-% H1a & Functional Fidelity & Higher FF at post-test.\\
-% H1b & Fidelity of Gestalt & Lower FG at post-test.\\
-% H2 & Expert alignment & Higher FA and GA (structural/Gestalt alignment).\\
-% \bottomrule
-% \end{tabularx}\par
-
-
-% \textbf{Exploratory extension:} What spontaneous reasoning during existing applet tasks helps explain learning and difficulty?
-\note{H1/H2 follow the registered directional predictions. The qualitative mechanism analysis is exploratory. Model competencies are theoretical context, not measured outcomes. A pre/post group effect cannot establish mediation by cognitive dissonance.}
+\begin{tabularx}{\textwidth}{@{}P{.12\textwidth}P{.30\textwidth}Y@{}}
+\toprule
+& \textbf{Outcome} & \textbf{Sphere versus control, adjusted for baseline}\\
+\midrule
+H1a & Functional Fidelity & Higher FF at post-test.\\
+H1b & Fidelity of Gestalt & Lower FG at post-test.\\
+H2 & Expert alignment & Higher FA and GA at post-test.\\
+\bottomrule
+\end{tabularx}\par
+\medskip
+\textbf{Exploratory:} dependence on initial fidelity beliefs and spatial reasoning, associations with cognitive load, and possible learning pathways.
+\slidesource{\citep{bitzenbauer2025,Rexigel2024}}
+\note{The project documentation describes these as the registered overall directional predictions. The registration itself was unavailable for independent verification during revision. The profiles on the preceding slide motivate exploratory pathways rather than define subgroups for the primary tests. Keep FF and FG continuous. Testing differences between architectural and dual starting profiles would require both baseline dimensions and suitable interactions, with a separate power justification. The displayed MANCOVA estimates the overall condition effect and does not by itself establish all directional hypotheses. Specify follow-up contrasts and multiplicity handling before analysis. Model competencies are not measured outcomes.}
 \end{frame}
 
 
@@ -273,7 +261,7 @@ We need your help to recruit participants for the online study!
 \begin{frame}{Measures and protocol decisions}
 \small
 \begin{itemize}
-\item Cognitive load: Extraneous (5 questions), Intrinsic (5) and Germane (7), 9-point Likert scale \citep{krieglstein2023}
+\item Cognitive load: Final validated questionnaire with 5 items each for intrinsic, extraneous, and germane load; 9-point scale \citep{krieglstein2023}
 \item General Extended Technology Acceptance Model for
 E-Learning (GETAMEL, only in pilot study, 7-point Likert scale): \citep{abdullah2016}
 \begin{itemize}
@@ -289,7 +277,7 @@ Ability Resource (ICAR) \citep{young2025}
 % \item Retain the preregistered completion exclusions. Clarify how the primary model includes SRA while retaining participants with missing SRA.
 % \item Match tutorial wording and starting states; prevent control-group sphere exposure before the post-test; verify participant matching and timing records.
 \end{itemize}
-\note{The preregistration excludes early termination and completion more than two standard deviations below the cohort median from primary efficacy testing. Missing cognitive-load or SRA scores exclude a record from H3, while psychometric records are explicitly retained for H1/H2 and H4. This conflicts with using SRA as a primary-model covariate unless missing-data handling is specified. Reconcile the specification before analysis; no imputation or alternative exclusion rule is introduced here.}
+\note{The preregistration excludes early termination and completion more than two standard deviations below the cohort median from primary efficacy testing. Missing cognitive-load or SRA scores exclude a record from H3, while psychometric records are explicitly retained for H1/H2 and H4. The revised primary model uses baseline FF, FG, FA, and GA, without SRA or cognitive load. Specify missing baseline and outcome handling, and missing SRA/load handling for exploratory models, before analysis. Document the change from the earlier analysis specification. The cited cognitive-load paper starts with 17 items but its final validated questionnaire has 15 (5 per subscale). The actual survey and pilot scoring were not available for checking. Verify whether they use the final instrument or an adaptation before interpreting scores; no survey or pilot data have been changed.}
 \end{frame}
 
 
@@ -301,7 +289,7 @@ Observe the students'
 \item Expressed conflicts.
 \item Conflict resolution.
 \end{itemize}
-\keyidea{The observations can provide evidence for mechanisms underlying learning and limtations of mental models.}
+\keyidea{The observations can provide evidence for mechanisms underlying learning and limitations of mental models.}
 \note{Students verbalize their thoughts while working through the existing applet tasks. The observations may support causal explanations of individual learning episodes. For example, a student might express a literal interpretation, encounter a conflicting representation, and then revise their interpretation. Evidence of confusion alone does not establish cognitive dissonance or identify a dual-type profile. Interpret verbalizations alongside task actions and baseline FF/FG measurements. Students may not verbalize every relevant process. No additional reflection prompts or follow-up questions are planned.}
 \end{frame}
 % \begin{frame}{Bring quantitative outcomes and verbal reasoning together}
