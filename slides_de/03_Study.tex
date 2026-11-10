@@ -1,0 +1,212 @@
+\section{Hypothesen und Studiendesign}
+\subsection{Erwartete Effekte und angenommener Mechanismus}
+
+\begin{frame}{Mögliche Veränderungen der Fidelity-Überzeugungen}
+\centering
+
+\begin{tikzpicture}[
+    profile/.style={
+        align=center,
+        text width=3.5cm,
+        font=\small
+    },
+    pathway/.style={
+        -{Stealth[length=3mm]},
+        very thick,
+        draw=LeipzigBlue
+    },
+    explanation/.style={
+        align=center,
+        text=LeipzigBlue,
+        font=\scriptsize,
+        fill=white,
+        inner sep=3pt
+    }
+]
+
+% Gleiche Abmessungen und Profile wie auf der vorherigen Folie
+\draw[-{Stealth},thick]
+    (0,0) -- (11,0) node[right] {FF};
+\draw[-{Stealth},thick]
+    (0,0) -- (0,4.8) node[above] {FG};
+
+\draw[gray,dashed] (5.2,0) -- (5.2,4.6);
+\draw[gray,dashed] (0,2.2) -- (10.7,2.2);
+
+\node[profile] at (2.15,3.5) {
+    \textbf{Architektonisch}\\
+    Hohe FG, geringe FF\\
+    Fokus auf Erscheinungsbild
+};
+
+\node[profile] at (8.15,3.5) {
+    \textbf{Dual}\\
+    Hohe FG, hohe FF\\
+    Visueller Realismus und Funktion
+};
+
+\node[profile] at (2.15,.85) {
+    \textbf{Unausgeprägt}\\
+    Geringe FG, geringe FF
+};
+
+\node[profile] at (8.15,.85) {
+    \textbf{Funktional}\\
+    Geringe FG, hohe FF\\
+    Funktion ohne Abbild-Annahme
+};
+
+% Vom architektonischen zum dualen Profil: zunehmende FF
+\draw[pathway] (4.2,3.5) -- (6.15,3.5)
+    node[midway,above=5pt,explanation,text width=2.6cm] {
+        Visualisierung macht\\
+        Funktionen zugänglich
+    };
+
+% Vom dualen zum funktionalen Profil: abnehmende FG
+\draw[pathway] (10,2.7) -- (10,1.3);
+
+\node[
+    explanation,
+    anchor=west,
+    text width=2.6cm
+] at (10.1,2) {
+    Kontrastierende Repräsentationen
+    hinterfragen wörtliche Interpretationen
+};
+
+\end{tikzpicture}
+
+\source{Mögliche Entwicklungspfade, keine nachgewiesenen Übergänge \citep{bitzenbauer2025}.}
+
+\note{
+Der erste Pfad betrifft Lernende mit hoher FG und geringer FF.
+Die Visualisierung kann funktionale Zusammenhänge zugänglich machen,
+beispielsweise durch Drehungen mittels Verzögerungsplatten und Projektionen
+durch Polarisatoren. Die FF kann steigen, während die FG zunächst hoch bleibt,
+was einer Bewegung vom architektonischen zum dualen Profil entspricht.
+
+Der zweite Pfad betrifft Lernende mit hoher FG und hoher FF.
+Die Gegenüberstellung der räumlichen Wellendarstellung und der abstrakten
+Kugel kann wörtliche Interpretationen infrage stellen. Die FG kann sinken,
+während die FF hoch bleibt, was einer Bewegung hin zum funktionalen Profil entspricht.
+
+Diese Pfade sind explorativ und nicht die primären Tests für H1. Sie müssen weder nacheinander noch bei allen Lernenden auftreten. Die Unterscheidung zwischen architektonischem und dualem Ausgangsprofil erfordert sowohl die anfängliche FF als auch FG. Ein Haupteffekt der Bedingung oder eine alleinige Interaktion von Bedingung und FG belegt keinen profilspezifischen Übergang. Schließen Sie aus einer nicht signifikanten Veränderung nicht auf eine stabile FF.
+Die Studie misst kontinuierliche FF- und FG-Werte statt fester Kategorien.
+Das Experten-Alignment (erfasst über FA und GA) ist ebenfalls Teil des Modellverständnisses
+und kann sich entlang beider Pfade verändern, wird aber durch diese beiden Achsen nicht dargestellt.
+
+Laut-Denken-Beobachtungen können spontanes Schlussfolgern erfassen,
+das mit diesen Pfaden während der bestehenden Applet-Aufgaben übereinstimmt.
+Es werden keine zusätzlichen Fragen oder Aktivitäten eingeführt.
+}
+\end{frame}
+
+\begin{frame}{Forschungsfragen}
+\footnotesize
+\begin{myalert}[Forschungsfrage 1]
+    Wie beeinflusst die zusätzliche Poincaré-Kugel die Functional Fidelity (FF) und die Fidelity of Gestalt (FG) in den Modellen der Lernenden zur Polarisation?
+\end{myalert}
+\begin{myalert}[Forschungsfrage 2]
+    Verbessert die zusätzliche Kugel das funktionale Alignment (FA) und das strukturelle/Gestalt-Alignment (GA) mit der Expertensicht?
+\end{myalert}
+\begin{myalert}[Forschungsfrage 3]
+Variieren die Effekte mit den anfänglichen Fidelity-Überzeugungen und dem räumlichen Vorstellungsvermögen? Wie hängen berichtete kognitive Belastung (Cognitive Load) und Lernergebnisse zusammen? (Explorativ)
+\end{myalert}
+
+
+% \keyidea{The sphere may support both functional reasoning and reflection on visual fidelity.}
+\note{Dies sind mögliche Wirkpfade, keine nachgewiesenen Effekte oder festen Entwicklungsverläufe. Eine Verzögerungsplatte dreht den normierten Stokes-Vektor. Ein idealer Polarisator projiziert den Jones-Vektor auf seinen Transmissionszustand, gefolgt von einer Normierung für den Punkt auf der Kugel. Dies ist im Allgemeinen keine euklidische Projektion eines Kugelpunkts. Die Kugel allein kodiert nicht die Transmissionsintensität. Bei einer transmittierten Intensität von null ist kein normierter Ausgangszustand definiert. Kognitive Dissonanz ist eine mögliche Erklärung für spontan geäußerte Konflikte, kein Schluss allein aus Verwirrung. Funktionales Verständnis kann sich auch ohne Dissonanz entwickeln.}
+\end{frame}
+
+\begin{frame}{Hypothesen}
+\begin{tabularx}{\textwidth}{@{}P{.12\textwidth}P{.30\textwidth}Y@{}}
+\toprule
+& \textbf{Zielgröße} & \textbf{Kugel vs. Kontrollgruppe, adjustiert für Prätest}\\
+\midrule
+H1a & Functional Fidelity & Höhere FF im Posttest.\\
+H1b & Fidelity of Gestalt & Geringere FG im Posttest.\\
+H2 & Experten-Alignment & Höheres FA und GA im Posttest.\\
+\bottomrule
+\end{tabularx}\par
+\medskip
+\textbf{Explorativ:} Abhängigkeit von anfänglichen Fidelity-Überzeugungen und räumlichem Vorstellungsvermögen, Zusammenhänge mit Cognitive Load sowie mögliche Lernpfade.
+\slidesource{\citep{bitzenbauer2025,Rexigel2024}}
+\note{Die Projektdokumentation beschreibt diese als die präregistrierten gerichteten Gesamtvorhersagen. Die Registrierung selbst war während der Überarbeitung nicht unabhängig einsehbar. Die Profile auf der vorhergehenden Folie motivieren explorative Pfade und definieren keine Subgruppen für die primären Tests. Behalten Sie FF und FG als kontinuierliche Variablen bei. Das Testen von Unterschieden zwischen architektonischen und dualen Ausgangsprofilen würde beide Ausgangsdimensionen und geeignete Interaktionen sowie eine separate Power-Begründung erfordern. Die dargestellte MANCOVA schätzt den Gesamteffekt der Bedingung und belegt für sich genommen noch nicht alle gerichteten Einzelhypothesen. Spezifizieren Sie vor der Auswertung gerichtete Folgekontraste und die Korrektur für multiples Testen. Modellkompetenzen sind keine gemessenen Zielgrößen.}
+\end{frame}
+
+
+\subsection{Zweiphasige Studie}
+\begin{frame}{Studienstruktur}
+\centering
+\resizebox{!}{5.35cm}{\input{figures/study_structure_de.tex}}
+% \source{Accompanying think-aloud observations capture reasoning during existing applet tasks.}
+\end{frame}
+
+\begin{frame}{Phase 1: Kalibrierung der Instrumente und des Applets}
+\begin{columns}[T,onlytextwidth]
+\column{.47\textwidth}
+\textbf{Experten-Pilotierung}
+\begin{itemize}
+\item Klassifikation der Items als FF, FG, beides oder keines.
+\item Bewertung der fachlichen Korrektheit und der Nützlichkeit von Analogien.
+\item Beurteilung von Formulierung und Übereinstimmung.
+\end{itemize}
+\column{.47\textwidth}
+\textbf{Novizen-Pilotierung}
+\begin{itemize}
+\item Identifikation unklarer Bedienelemente und Anweisungen.
+\item Untersuchung der Interpretation der Repräsentationen.
+\item Erfassung von Cognitive Load \citep{krieglstein2023} und Technologieakzeptanz \citep{abdullah2016}.
+\end{itemize}
+\end{columns}
+\keyidea{Überarbeitung der Fragebogen-Items, Applet-Anweisungen und des Interaktionsdesigns vor dem Hauptvergleich.}
+\note{Gemäß Präregistrierung werden Items mit einem Interquartilsabstand (IQR) größer als 1 ausgeschlossen und zudem die allgemeine Inter-Rater-Reliabilität bestimmt. Stichprobengrößen der Pilotierung und das Reliabilitätsmaß sind nicht näher spezifiziert. In der Novizen-Pilotierung sind Laut-Denken-Interviews oder Fragebögen vorgesehen. Die begleitenden Beobachtungen der Hauptstudie folgen dem aktualisierten Plan: bestehende Aufgaben ohne zusätzliche Fragen oder Aktivitäten.}
+\end{frame}
+
+\begin{frame}{Phase 2: Randomisierter Prä-/Post-Vergleich}
+\begin{tabularx}{\textwidth}{@{}P{.18\textwidth}Y@{}}
+\toprule
+\textbf{Prätest} & FF, FG, FA und GA\\
+\textbf{Intervention} & Randomisierte Zuteilung zu angeleiteten Polarisationsaufgaben mit oder ohne zusätzliche Kugel\\
+\textbf{Posttest} & FF, FG, FA, GA; Cognitive Load \citep{krieglstein2023} und räumliches Vorstellungsvermögen \citep{young2025}, demografische Angaben\\
+\bottomrule
+\end{tabularx}\par
+\vspace{3mm}
+\textbf{Zielgruppe:} Studierende der Physik und verwandter MINT-Fächer im 2. und 3. Studienjahr.\\[2mm]
+\textbf{Zielstichprobe:} Power-Analyse: $N=218$ rekrutiert; minimal auswertbare Stichprobe $N=196$.
+
+Wir brauchen Ihre Unterstützung bei der Rekrutierung von Teilnehmenden für die Online-Studie!
+\note{Rekrutierung: Universität Leipzig und angeschlossene Netzwerke. Die Präregistrierung sieht einfache Verblindung vor: Teilnehmende kennen die Manipulation nicht und erfahren allgemein, dass die Studie visuelle Lernhilfen in der Physik untersucht. Die Zufallszuteilung erfolgt beim Initialisieren der Web-App. Präregistrierte Power-Annahmen: f-Quadrat .0625, Power .80, Alpha .05, vier Zielgrößen, zwei Gruppen, zwei Kovariaten. Diese Folie berechnet die Power nicht neu und legt keine Stichprobengröße für die Beobachtungen fest.}
+\end{frame}
+
+\begin{frame}{Messinstrumente und Protokollentscheidungen}
+\small
+\begin{itemize}
+\item Cognitive Load: Finaler validierter Fragebogen mit je 5 Items für intrinsische, extrinsische und lernbezogene (germane) Belastung; 9-stufige Skala \citep{krieglstein2023}
+\item General Extended Technology Acceptance Model for
+E-Learning (GETAMEL, nur in der Pilotstudie, 7-stufige Likert-Skala): \citep{abdullah2016}
+\begin{itemize}
+    \item Wahrgenommene Nützlichkeit (Perceived Usefulness)
+    \item Wahrgenommene Benutzerfreundlichkeit (Perceived Ease of Use)
+    \item E-Learning-Selbstwirksamkeit (E-Learning Self-Efficacy)
+    \item Wahrgenommene Freude (Perceived Enjoyment)
+\end{itemize}
+\item Räumliches Vorstellungsvermögen: Gemessen anhand der Open-Source-Skala zur 3D-Blockrotation aus der International Cognitive
+Ability Resource (ICAR) \citep{young2025}
+\end{itemize}
+\note{Die Präregistrierung schließt vorzeitige Abbrüche sowie Bearbeitungszeiten von mehr als zwei Standardabweichungen unter dem Kohortenmedian von der primären Wirksamkeitsprüfung aus. Fehlende Werte bei Cognitive Load oder räumlichem Vorstellungsvermögen (SRA) schließen einen Datensatz von H3 aus, während psychometrische Datensätze für H1/H2 und H4 explizit beibehalten werden. Das überarbeitete Primärmodell nutzt die Prätest-Werte von FF, FG, FA und GA ohne SRA oder Cognitive Load. Legen Sie vor der Analyse den Umgang mit fehlenden Prätest- und Ergebniswerten sowie mit fehlenden SRA-/Load-Werten in explorativen Modellen fest. Dokumentieren Sie die Abweichung von der früheren Analysespezifikation. Das zitierte Cognitive-Load-Paper beginnt mit 17 Items, der finale validierte Fragebogen umfasst jedoch 15 Items (5 pro Subskala).}
+\end{frame}
+
+
+\begin{frame}{Laut-Denken-Beobachtungen: Untersuchung von Mechanismen}
+Beobachtung der Studierenden hinsichtlich:
+\begin{itemize}
+\item Versuchen, die Poincar\'e-Kugel in ihr Denken einzubeziehen.
+\item Schwierigkeiten beim Verknüpfen von Repräsentationen.
+\item Geäußerter Konflikte.
+\item Konfliktlösungen.
+\end{itemize}
+\keyidea{Die Beobachtungen können Hinweise auf Lernmechanismen und Grenzen mentaler Modelle liefern.}
+\note{Studierende verbalisieren ihre Gedanken, während sie die bestehenden Applet-Aufgaben bearbeiten. Die Beobachtungen können kausale Erklärungen einzelner Lernepisoden stützen. Beispielsweise könnte eine Person eine wörtliche Interpretation äußern, auf eine widersprüchliche Repräsentation stoßen und ihre Interpretation daraufhin revidieren. Hinweise auf Verwirrung allein belegen noch keine kognitive Dissonanz und identifizieren kein duales Profil. Interpretieren Sie Verbalisierungen gemeinsam mit Aufgabenhandlungen und den anfänglichen FF-/FG-Messungen. Studierende verbalisieren möglicherweise nicht jeden relevanten Prozess. Es sind keine zusätzlichen Reflexionsimpulse oder Nachfragen geplant.}
+\end{frame}

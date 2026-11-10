@@ -1,0 +1,98 @@
+\section{Auswertung und aktueller Stand}
+
+\begin{frame}{Geplante Primäranalyse: MANCOVA}
+\begin{columns}[T,onlytextwidth]
+\column{.27\textwidth}
+\textbf{Gemeinsame Zielgrößen}
+\[
+\mathbf{Y}_{\mathrm{post}}=
+\begin{pmatrix}
+FF_{\mathrm{post}}\\ FG_{\mathrm{post}}\\ FA_{\mathrm{post}}\\ GA_{\mathrm{post}}
+\end{pmatrix}
+\]
+\column{.69\textwidth}
+\begin{itemize}
+\item \textbf{Faktor:} Bedingung, mit oder ohne zusätzliche Poincar\'e-Kugel.
+\item \textbf{Kovariaten:} Prätest-Werte von FF, FG, FA und GA.
+\item \textbf{Ziel:} Gesamteffekt der Bedingung auf die Posttest-Ergebnisse (Forschungsfragen 1 und 2).
+\end{itemize}
+\end{columns}
+\medskip
+\textbf{Explorativ (Forschungsfrage 3):} Moderation durch anfängliche Fidelity-Überzeugungen und räumliches Vorstellungsvermögen; Zusammenhänge mit berichtetem Cognitive Load.
+\note{GA bezeichnet das strukturelle/Gestalt-Alignment und FA das funktionale Alignment. Die überarbeitete Primärspezifikation adjustiert für die vier Prätest-Zielgrößen, nicht für den nach der Intervention erhobenen Cognitive Load oder das räumliche Vorstellungsvermögen. Cognitive Load kann durch die Intervention beeinflusst werden; eine gewöhnliche Adjustierung würde nicht den Gesamteffekt schätzen und identifiziert nicht automatisch einen direkten Effekt. Das räumliche Vorstellungsvermögen wird nach dem Applet gemessen, sodass seine Nutzung als Moderator eine Begründung erfordert, dass weder die Bedingung noch unterschiedliche Ermüdung die Messung beeinflussen. Die anfängliche FG kann einen späteren Effekt moderieren, ihn aber nicht mediieren.
+
+Halten Sie Analysen zum Cognitive Load explorativ und korrelativ; nach der Sitzung erhobene Belastungs- und Ergebnismaße allein identifizieren keine kausale Mediation. Eine profilspezifische Moderation würde sowohl die anfängliche FF als auch FG erfordern, nicht FG allein. Stimmen Sie die Zwei-Kovariaten-Annahme der Power-Analyse mit dem überarbeiteten Vier-Prätest-Modell ab. Legen Sie gerichtete Folgekontraste, Korrekturen für multiples Testen und den Umgang mit fehlenden Daten vor der Analyse fest. Dokumentieren Sie diese überarbeitete Analysespezifikation und jede Abweichung von der Präregistrierung transparent.}
+\end{frame}
+
+\begin{frame}{Studierenden-Feedback: Nützlichkeit und Bedienbarkeit}
+
+\small
+\vspace{-0.4em}
+\begin{columns}[T,onlytextwidth]
+\column{.48\textwidth}
+\begin{mynote}[Wahrgenommene Nützlichkeit]
+\begin{itemize}\setlength{\itemsep}{2pt}
+\item Studierende schätzten interaktive Grafiken und unmittelbar sichtbare Parameteränderungen.
+\item Hinweise halfen weiter, auch als Orientierung ohne Vorwegnahme der Lösung.
+\item Gewünscht wurden mehr Beispiele, ausführlichere Erklärungen, ein Glossar sowie Definitionen von Polarisation und Drehsinn.
+\end{itemize}
+\end{mynote}
+\column{.48\textwidth}
+\begin{mynote}[Wahrgenommene Bedienbarkeit]
+\begin{itemize}\setlength{\itemsep}{2pt}
+\item Kamera-Resets, Perspektivsteuerung und Scrollen bereiteten Schwierigkeiten.
+\item Gewünscht wurden direkte Zahleneingaben und dauerhaft gespeicherte Anzeigeoptionen.
+\item Aufgaben und Grafiken waren schwer gleichzeitig zu sehen; frühere Formeln waren nicht mehr zugänglich.
+\end{itemize}
+\end{mynote}
+\end{columns}
+\source{Zusammenfassung des offenen Pilot-Feedbacks: 8 Befragte über die Fragen hinweg.}
+\note{Quelle: pilot\_results/comments.md, Stand 25. September 2026. Acht verschiedene Befragte gaben substanzielle Kommentare über die Fragen hinweg ab (1, 2, 3, 5, 6, 8, 9, 10); die Anzahl der Antworten variiert je nach Item. Dies sind qualitative Kommentare, nicht die Ergebnisse der GETAMEL-Skala. Behalten Sie die überlieferten historischen Bedingungsbezeichnungen bei: ohne Kugel = Polarisation 1, mit Kugel = Polarisation 2. Das aktuelle Applet verwendet ab Schritt 3 die umgekehrte Modulzuordnung, sodass dessen Modulnamen nicht zur Umbenennung der Pilotdaten verwendet werden dürfen.
+
+Interaktive Grafiken und Parameteränderungen werden in den Antworten 1, 2, 6, 8, 9 und 10 genannt. Hinweise werden von 3 und 9 positiv erwähnt; 6 schätzt ebenfalls Ratschläge und Erklärungen. Antwort 3 wünscht sich Beispiele für Operatoren und empfindet Erklärungen als zu kurz. Antwort 5 berichtet, dass das Scrollen über den Plots hängen bleibt und Formeln auf kleineren Bildschirmen schwer lesbar sind. Antwort 6 berichtet von Kamera-Resets und Touchpad-Schwierigkeiten; die Antworten 1, 9 und 10 erwähnen Zoom- oder Perspektivsteuerung. Antwort 2 wünscht sich numerische Eingaben. Antwort 9 berichtet von zurückgesetzten Anzeigeoptionen, verzögerten Vektorklammern und der räumlichen Trennung von Aufgabe und Grafik. Die Antworten 8 und 9 wünschen sich ein automatisches Zurückscrollen nach oben beim Weiterklicken. Antwort 10 wünscht sich Zugriff auf frühere Formeln. Diese Punkte beschreiben die Erfahrung in der Pilotierung, nicht zwingend bestätigte Fehler in der aktuellen Version.}
+\end{frame}
+
+\begin{frame}{Feedback: Selbstwirksamkeit und Freude}
+\small
+\vspace{-0.4em}
+\begin{columns}[T,onlytextwidth]
+\column{.48\textwidth}
+\begin{mynote}[E-Learning-Selbstwirksamkeit]
+\begin{itemize}\setlength{\itemsep}{2pt}
+\item Hinweise ermöglichten den Teilnehmenden ein selbstständiges Weiterarbeiten.
+\item Eine Person löste Aufgaben trotz Unsicherheiten bei Matrizen und Fachbegriffen.
+\item Das Lösen einer Aufgabe bedeutete nicht zwangsläufig konzeptuelle Sicherheit.
+\end{itemize}
+\end{mynote}
+\column{.48\textwidth}
+\begin{mynote}[Freude an der Nutzung]
+\begin{itemize}\setlength{\itemsep}{2pt}
+\item Studierende hatten Freude daran, die Grafiken zu verändern und die Simulation zu nutzen.
+\item Eine Person verglich die aufeinanderfolgenden Aufgaben mit dem Belohnungssystem eines Spiels.
+\item Komplexe Inhalte und umständliche Steuerung minderten die Freude.
+\end{itemize}
+\end{mynote}
+\end{columns}
+\source{Zusammenfassung des offenen Pilot-Feedbacks: 8 Befragte über die Fragen hinweg.}
+\note{Antwort 1 beschreibt ein Weiterkommen ohne vollständiges Verständnis der Fachbegriffe sowie Unsicherheit bezüglich Matrizen. Dies sind zwei Kommentare einer einzelnen Person, kein Beleg dafür, dass mehrere Studierende Aufgaben ohne Verständnis gelöst haben. Antwort 9 bittet um ein Glossar, eine kurze Polarisationsdefinition sowie Definitionen von rechts- und linkszirkularer Polarisation. Antwort 1 fragt nach dem Zweck der Aktivität und ihrem Bezug zur Quantenphysik. Antwort 8 berichtet von komplexen Formeln und zu komplexen Inhalten. Antwort 6 nennt zirkulares/gedrehtes Licht als interessant; Antwort 10 hebt den mathematischen Hintergrund linearer Polarisatoren positiv hervor. Diese Beispiele relativieren jede pauschale Aussage, dass das mathematische Material unbeliebt gewesen sei.
+
+Die Analogie zum Belohnungssystem stammt allein aus Antwort 1. Positive Kommentare aus der Kugel-Bedingung beziehen sich allgemein auf interaktive oder dreidimensionale Grafiken; keiner benennt spezifisch die Kugel als Ursache eines Vorteils. Dies beweist jedoch nicht das Fehlen eines Kugeleffekts. Einige optionale Angaben zum Studienfach weisen auf Schüler:innen hin; gehen Sie daher nicht davon aus, dass diese Pilotstichprobe der Studierendenpopulation der Hauptstudie entspricht. Leiten Sie aus diesen Kommentaren keine gemessenen Zuwächse der Selbstwirksamkeit, objektiven Lerngewinne oder Themenhäufigkeiten ab.}
+\end{frame}
+
+\begin{frame}{Ausblick}
+\vspace{-0.4em}
+\textbf{Erkenntnisse aus der Pilotstudie:} 
+\begin{itemize}\setlength{\itemsep}{1pt}
+    \item Studierende schätzten Interaktivität, Grafiken und Hinweise.
+    \item Kommentare zeigten Usability-Schwierigkeiten und den Wunsch nach konzeptueller Orientierung auf.
+    \item Aus den Kommentaren lässt sich kein isolierter Nutzen der Poincaré-Kugel ableiten.
+\end{itemize}
+\textbf{Nächste Schritte:} 
+\begin{itemize}\setlength{\itemsep}{1pt}
+    \item Erhebung der verbleibenden Expertendaten und Durchführung der Hauptstudie.
+    \item Als Expert:innen der Physikdidaktik bitten wir um Ihre Unterstützung (offen bis 09. Oktober 2026): 
+\end{itemize}
+\centering
+\qrcode[height=1.7cm]{https://nimble.li/omz88r4m} \\[1mm]
+{\small\url{https://nimble.li/omz88r4m}}
+\end{frame}
